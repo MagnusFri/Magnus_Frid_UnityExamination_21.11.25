@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Startmenu.unity
+    guid: 8e89f5b65a762ff46a70a3e13faa569b
+  - enabled: 1
+    path: Assets/Scenes/Game01.unity
+    guid: 15fc3b2c5a245974486c4c6d6fe5b102
+  - enabled: 0
     path: Assets/Settings/Scenes/2D URP Scene Template.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
