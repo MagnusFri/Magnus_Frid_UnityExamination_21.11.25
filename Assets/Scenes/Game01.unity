@@ -538,7 +538,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 10612636571326132, guid: 5dde36921fd71404fabfe59d838b3e76, type: 3}
       propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_IntArgument
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5456670479272200393, guid: 5dde36921fd71404fabfe59d838b3e76, type: 3}
       propertyPath: m_Name
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588437760}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58350ac1eb44aa34d9e853e1f593ce3a, type: 3}
   m_Name: 
@@ -967,18 +967,6 @@ MonoBehaviour:
   onComparedAndTrue:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 588437762}
-        m_TargetAssemblyTypeName: UICounter, Assembly-CSharp
-        m_MethodName: CompareCounter
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 8
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 588437762}
         m_TargetAssemblyTypeName: UICounter, Assembly-CSharp
         m_MethodName: CompareCounter
